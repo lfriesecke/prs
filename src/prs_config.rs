@@ -11,7 +11,3 @@ impl Config {
         Ok(Config { file_path: args[1].clone() } )
     }
 }
-
-pub fn split_slides(file_content: String) -> Vec<String> {
-    return Vec::new();
-}
